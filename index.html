@@ -1,0 +1,74 @@
+<!--Dit is KaasEters.nl. Enjoy! -->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<script src="https://maps.googleapis.com/maps/api/js"></script>
+			<script>
+      			function initialize() {
+        		var mapCanvas = document.getElementById('map_canvas');
+       			 var mapOptions = {
+         			 center: new google.maps.LatLng(52.2726695, 5.2480795),
+          				zoom: 16,
+          					mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        		var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      			google.maps.event.addDomListener(window, 'load', initialize);
+    		</script>
+			<link rel="stylesheet" type="text/css" href="main.css">
+			<title> KaasEters | De beste kaas voor de laagste prijs! </title>
+		</head>
+		<body>
+
+			<form> 
+				<label for="male">Username</label>
+				<input type="radio" name="sex" id="male" value="male"><br>
+			</form>
+
+			<p>dit is text
+			</p><br>dit is nog meer text!</p>
+
+
+			<img src="/Users/maxhedemanjoosten/Downloads/dancing-banana.gif" height=100>
+
+			<p>PEANUT BUTTER JELLY TIME!!!</p>
+
+			<p align="center"><img src="CodelabLogo.png" width=300 height=200 border="5"></p>
+
+			<font color="red">LOLOOLOLOLOL!</font>
+
+			<h1 align="center"><u>KaasEters.nl</u></h1>
+
+			<h2 align="center">Van KaasEters inc.</h2>
+
+			<h2 align=center><a href="about.html" target=_blank>Over</a>
+			<a href="buy.html" target=_blank>Kopen</a>
+			
+			<h3><u>Dit zijn onze kazen</u></h3>
+
+			<p align=left>Deze zijn zeer giftig<br>(maar wel lekker):</p>
+			<div style="box-shadow: 5px 5px 2px #888888; background-color: white; color: black; border-radius: 5px">
+				<ol>
+					<li>Kesz</li>
+					<li>Nasm</li>
+					<li>Road</li>
+				</ol>
+			</div>
+
+			<h3>Waar U ons kan vinden:</h3>
+			<div id="map_canvas"></div>
+			<div id="square"><p><strong>Dit is kaas! SWEK!</strong></p></div>
+
+			<table border=1>
+
+				<tr><td>NOM</td><td>NOM</td><td>NOM</td></tr>
+
+				<tr><td><strong>KAAS</strong></td><td>KAAS</td><td>KAAS</td></tr>
+
+			</table>
+			<?php
+			echo "YAY, PHP doet het!";
+			?>
+		</body>
+	</html>
